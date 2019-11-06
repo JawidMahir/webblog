@@ -1,0 +1,412 @@
+
+body{
+    
+    font-family: 'Oswald', sans-serif;
+    background: #EEEDED;
+    direction: rtl;
+}
+a{
+    
+    color: dodgerblue;
+    direction: rtl;
+    
+}
+a:hover{
+    color: dodgerblue;
+
+}
+
+.navbar-brand img{
+    
+    margin-top: -5px;
+    direction: rtl;
+} 
+
+.navbar-brand *{
+    color: white;
+    direction: rtl;
+}
+.jumbotron{
+    height: 200px;
+    overflow: hidden;
+    direction: rtl;
+}
+
+.jumbotron #details{
+    
+    position: absolute;
+    color: white;
+    direction: rtl;
+}
+.jumbotron #details span{
+    color: dodgerblue;
+    direction: rtl;
+    
+}
+.jumbotorn img{
+    width: 100%;
+    direction: rtl;
+}
+section .widgets{
+    margin-bottom: 20px;
+    direction: rtl;
+    
+}
+
+.popular{
+    background: white;
+    padding: 20px;
+    border-radius: 10px; 
+    border: 1px solid #E3E3E3;
+    direction: rtl;
+}
+.popular .details{
+    margin-left: -20px;
+    direction: rtl;
+    
+    
+}
+
+.popular .details p{
+    font-family: arial; 
+    font-size: 11px;
+    direction: rtl;
+    
+}
+
+.popular img{
+    width: 100%;
+    margin-top: 12px;
+    direction: rtl;
+
+}
+
+.popular ul li{
+    list-style: none;
+    direction: rtl;
+}
+
+
+.popular .details{
+    margin-left: 20px;
+    direction: rtl;
+    
+}
+.popular .details p{
+    font-family: aril;
+    font-size: 11px;
+    direction: rtl;
+    
+    
+}
+
+
+
+.post{
+    background: white;
+  border: 1px solid #E3E3E3;
+    margin: 15px 0px; 
+    direction: rtl;
+}
+.post .post-date{
+    padding: 20px;
+    text-align: center;
+    direction: rtl;
+   
+
+}
+.post .post-date .day{
+    font-size: 30px;
+    color:#24A7CF;
+    direction: rtl;
+} 
+.post .post-date .month{
+    font-size: 18px; 
+    direction: rtl;
+}
+
+.post .post-date .year{
+    
+    font-weight: 100;
+    direction: rtl;
+}
+.post .post-title{
+    padding:5px 20px 35px 20px;
+     border-left:1px solid #E3E3E3;
+     direction: rtl;
+}
+.post .post-title span{
+    color: #24A7CF;
+    font-weight: 100;
+    margin-left: 10px;
+    direction: rtl;
+}
+
+.post .profile-picture{
+    padding: 20px;
+    direction: rtl;
+    
+}
+
+.post .profile-picture img{
+    width: 80%;
+    direction: rtl;
+
+}
+
+.post > a > img{
+    width: 100%;
+    direction: rtl;
+ }
+
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+    direction: rtl;
+}
+
+.post > a.btn{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    direction: rtl;
+} 
+.post .bottom{
+    padding: 10px 20px;
+    border-top: 1px solid #E3E3E3;
+    
+}
+
+.post .bottom .first{
+    margin-right: 20px;
+    direction: rtl;
+}
+.post .bottom .second{
+    margin-left: 20px;
+    direction: rtl;
+}
+
+nav#pagination{
+    text-align: center;
+    direction: rtl;
+}
+.pagination > li > a{
+    color: #3787C1;
+    padding: 15px 25px;
+    font-size: 18px;
+    direction: rtl;
+    
+
+}
+footer{
+    background: black;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    letter-spacing: 1px;
+    direction: rtl;
+}
+.contact-form{
+    background: white;
+    padding: 50px 25px;
+    direction: rtl;
+}
+.contact-form h2{
+color: #24A7CF;
+direction: rtl;
+}
+.contact-form textarea{
+    resize: none;
+    direction: rtl;
+}
+.related-posts{
+    background: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    direction: rtl;
+
+    
+}
+.related-posts img{
+    width: 100%;
+    direction: rtl;
+}
+.related-posts h3{
+    color: #24A7CF;
+    direction: rtl;
+}
+.author{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px; 
+    direction: rtl;
+}
+.author img{
+    width: 100%; 
+    direction: rtl;
+}
+.author h4{
+    color: #24A7CF;
+    text-decoration: underline;
+    direction: rtl;
+}
+
+.author p{
+    font-weight: 100;
+    direction: rtl;
+    
+}
+.comment{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    direction: rtl;
+}
+.comment h3{
+    color: #24A7CF;
+    direction: rtl;
+}
+.comment img{
+    width: 80%;
+    direction: rtl;
+}
+.comment h4{
+    color: #24A7CF;
+    direction: rtl;
+    
+}
+.comment p{
+    font-weight: 100;
+    direction: rtl;
+    
+}
+.comment .single-comment{
+    margin-bottom: 10px;
+    direction: rtl;
+    
+}
+.comment-box{
+    margin-bottom: 15px;
+    background: white;  
+    padding: 20px;
+    direction: rtl;
+}
+.comment-box textarea{
+    resize: none;
+    direction: rtl;
+}
+@media (max-width:992px){
+    
+     .post .profile-picture{
+        text-align:center;
+         margin-top: -40px;
+         border: none;
+         direction: rtl;
+    }
+    .post .profile-picture img{
+        width: 20%;
+        direction: rtl;
+    }
+    .post .post-title{
+        text-align: center;
+        direction: rtl;
+    }
+}
+
+
+@media (max-width:786px){
+   
+    .jumbotron #details{
+        margin-top: 20px; 
+        direction: rtl;
+    }
+    
+    .post .post-title{
+        margin-top: -30px;
+        text-align: center;
+        border: none;
+        direction: rtl;
+    }
+    .post .profile-picture{
+        text-align:center;
+        direction: rtl;
+    }
+    .post .profile-picture img{
+        width: 20%;
+        direction: rtl;
+        
+    }
+    .pagination > li > a{
+        font-size: 13px;
+        padding: 10px 12px;
+        direction: rtl;
+    
+    }
+    footer{
+        font-size: 9px;
+        letter-spacing: 0px;
+        direction: rtl;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a{
+        text-align: center;  
+        direction: rtl;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        text-align: center;
+        direction: rtl;
+        
+    }
+    .author{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px; 
+    text-align: center;
+    direction: rtl;
+}
+    .author img{
+    width: 30%;  
+    direction: rtl;
+}
+.author h4{
+    color: #24A7CF;
+    text-decoration: underline;
+    direction: rtl;
+}
+
+.author p{
+    font-weight: 100;
+    direction: rtl;
+    
+}
+    .comment{
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    direction: rtl;
+}
+.comment h3{
+    color: #24A7CF;
+    direction: rtl;
+}
+.comment img{
+    width: 30%;
+    direction: rtl;
+}
+.comment h4{
+    color: #24A7CF;
+    direction: rtl;
+    
+}
+.comment p{
+    font-weight: 100;
+    direction: rtl;
+    
+}
+.comment .single-comment{
+    margin-bottom: 10px;
+    text-align: center;
+    direction: rtl;
+}
+}
